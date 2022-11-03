@@ -23,7 +23,7 @@
     <appSpace>EmployeePersonal-AppSpace</appSpace>
     <agentSSL>false</agentSSL>
     <backupLocation></backupLocation>
-    <earUploadPath>C:\Workspace_Bw6\Employee_details\EARs</earUploadPath>
+    <earUploadPath>EmpPersonal/Employee_Personal.application/target</earUploadPath>
     <appSpaceDesc></appSpaceDesc>
     <osgiPort></osgiPort>
     <redeploy>true</redeploy>
