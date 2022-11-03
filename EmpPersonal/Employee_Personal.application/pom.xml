@@ -23,7 +23,7 @@
     <appSpace>EmployeePersonal-AppSpace</appSpace>
     <agentSSL>false</agentSSL>
     <backupLocation></backupLocation>
-    <earUploadPath></earUploadPath>
+    <earUploadPath>.</earUploadPath>
     <appSpaceDesc></appSpaceDesc>
     <osgiPort></osgiPort>
     <redeploy>true</redeploy>
