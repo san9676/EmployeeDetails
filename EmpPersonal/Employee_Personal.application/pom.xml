@@ -42,7 +42,7 @@
     <truststorePath></truststorePath>
     <keystorePath></keystorePath>
     <domain>EmployeeDetails</domain>
-    <agentPort>9777</agentPort>
+    <agentPort>8079</agentPort>
     <tibco.Home>C:\Tibco_bw6.8</tibco.Home>
   </properties>
   <build>
