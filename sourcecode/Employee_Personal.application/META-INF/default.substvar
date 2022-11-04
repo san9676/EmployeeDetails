@@ -264,12 +264,13 @@
 		</globalVariable>
 		<globalVariable>
 			<name>//CommonInterface///Connections/HTTP/Port</name>
-			<value>10356</value>
+			<value>10676</value>
 			<deploymentSettable>false</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>Integer</type>
-			<isOverride>false</isOverride>
+			<isOverride>true</isOverride>
 			<useLookupValue>false</useLookupValue>
+			<lookupValue>10676</lookupValue>
 		</globalVariable>
 		<globalVariable>
 			<name>//CommonInterface///PersonalClientHttp/host</name>
