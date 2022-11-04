@@ -2,20 +2,20 @@
   "swagger" : "2.0",
   "info" : {
     "version" : "1.0",
-    "title" : "Emp_personal",
-    "description" : "Emp_personal service"
+    "title" : "EmployeePersonal",
+    "description" : "EmployeePersonal service"
   },
   "host" : "localhost:8080",
   "basePath" : "/",
   "schemes" : [ "http" ],
   "paths" : {
-    "/emp_personal" : {
+    "/empPersonal" : {
       "post" : {
-        "summary" : "postEmp_personal",
-        "description" : "postEmp_personal",
-        "operationId" : "post-emp_personal",
-        "consumes" : [ "application/json", "application/xml" ],
-        "produces" : [ "application/json", "application/xml" ],
+        "summary" : "postEmployeePersonal",
+        "description" : "postEmployeePersonal",
+        "operationId" : "post-empPersonal",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "body",
           "in" : "body",
