@@ -1,1 +1,26 @@
-{"records": []}
+{"records": [
+    {
+        "jsonSchemaLocation": "/Employee_Personal/Service Descriptors/main.EmployeePersonal-EmployeePersonal.json",
+        "conversionType": "linked",
+        "xsdSchemaLocation": "/CommonInterface/Schemas/EmployeePersonal.xsd",
+        "xsdSchemaTargetNamespace": "http://www.EniqueSol.org/Employee_Personal/V1"
+    },
+    {
+        "jsonSchemaLocation": "/Employee_Personal/Service Descriptors/main.EmployeePersonal-EmployeePersonal.json",
+        "conversionType": "linked",
+        "xsdSchemaLocation": "/CommonInterface/Schemas/EmployeePersonal.xsd",
+        "xsdSchemaTargetNamespace": "http://www.EniqueSol.org/Employee_Personal/V1"
+    },
+    {
+        "jsonSchemaLocation": "/Employee_Personal/Service Descriptors/main.EmployeePersonal-EmployeePersonal.json",
+        "conversionType": "linked",
+        "xsdSchemaLocation": "/CommonInterface/Schemas/EmployeePersonal.xsd",
+        "xsdSchemaTargetNamespace": "http://www.EniqueSol.org/Employee_Personal/V1"
+    },
+    {
+        "jsonSchemaLocation": "/Employee_Personal/Service Descriptors/main.EmployeePersonal-EmployeePersonal.json",
+        "conversionType": "linked",
+        "xsdSchemaLocation": "/CommonInterface/Schemas/EmployeePersonal.xsd",
+        "xsdSchemaTargetNamespace": "http://www.EniqueSol.org/Employee_Personal/V1"
+    }
+]}
