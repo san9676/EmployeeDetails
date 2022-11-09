@@ -1318,7 +1318,8 @@
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.eniquesolution.com/E-Commerce/CommonFramework"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://xmlns.example.com/Emp_personal/parameters"/>
     <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://tns.tibco.com/bw/REST"/>
-    <bpws:import importType="http://www.w3.org/2001/XMLSchema" namespace="http://www.EniqueSol.org/Employee_Personal/V1"/>
+    <bpws:import importType="http://www.w3.org/2001/XMLSchema"
+        location="../../../CommonInterface/Schemas/EmployeePersonal.xsd" namespace="http://www.EniqueSol.org/Employee_Personal/V1"/>
     <bpws:partnerLinks>
         <bpws:partnerLink myRole="use" name="emp_personal"
             partnerLinkType="ns0:partnerLinkType"
