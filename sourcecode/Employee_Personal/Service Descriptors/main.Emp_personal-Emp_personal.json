@@ -48,7 +48,7 @@
         }
       }
     },
-    "EmpPersonalReq" : {
+    "EmpPersonalType" : {
       "type" : "object",
       "required" : [ "EmailID", "EmpCode", "EmpName" ],
       "properties" : {
@@ -85,6 +85,22 @@
         },
         "PAN_Number" : {
           "type" : "string"
+        }
+      }
+    },
+    "EmpPersonalReq" : {
+      "type" : "object",
+      "required" : [ "empPersonal" ],
+      "properties" : {
+        "CorelationID" : {
+          "type" : "string"
+        },
+        "TransacTime" : {
+          "type" : "string",
+          "format" : "date-time"
+        },
+        "empPersonal" : {
+          "$ref" : "#/definitions/EmpPersonalType"
         }
       }
     }

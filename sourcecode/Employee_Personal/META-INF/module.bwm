@@ -2,7 +2,7 @@
 <sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:rest="http://xsd.tns.tibco.com/bw/models/binding/rest" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scact="http://xsd.tns.tibco.com/amf/models/sca/componentType" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_hQPGAE9tEe2TJpQPEuH7uA" targetNamespace="http://tns.tibco.com/bw/composite/Employee_Personal" name="Employee_Personal" compositeext:version="1.0.0" compositeext:formatVersion="2">
   <sca:service xmi:id="_vqdT4E9tEe2TJpQPEuH7uA" name="emp_personal" promote="ComponentEmp_personal/emp_personal">
     <sca:interface.wsdl xmi:id="_vqvnwE9tEe2TJpQPEuH7uA" interface="http://xmlns.example.com/20221019104853PLT#wsdl.interface(emp_personal)" scaext:wsdlLocation="../Processes/employee_personal/Emp_personal.bwp"/>
-    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_vrM6wE9tEe2TJpQPEuH7uA" name="RestService" path="/emp_personal" docBasePath="http://localhost:7777/Employee_Personal" docResourcePath="Emp_personal" basePath="/" connector="employee_personal.Emp_personal" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/employee_personal.Emp_personal-Emp_personal.json">
+    <scaext:binding xsi:type="rest:RestServiceBinding" xmi:id="_vrM6wE9tEe2TJpQPEuH7uA" name="RestService" path="/emp_personal" docBasePath="http://localhost:7777/Employee_Personal" docResourcePath="Emp_personal" basePath="/" connector="employee_personal.Emp_personal" structuredData="true" technologyVersion="2.0" implementation="Service Descriptors/main.Emp_personal-Emp_personal.json">
       <operation xmi:id="_vrVdoE9tEe2TJpQPEuH7uA" operationName="post" nickname="post-emp_personal" httpMethod="POST" notes="postEmp_personal" responseStyle="element" outputPartName="item">
         <clientFormat>json</clientFormat>
         <clientFormat>xml</clientFormat>
@@ -29,8 +29,5 @@
     <sca:service xmi:id="_vqRGoE9tEe2TJpQPEuH7uA" name="emp_personal">
       <sca:interface.wsdl xmi:id="_vqYbYE9tEe2TJpQPEuH7uA" interface="http://xmlns.example.com/20221019104853PLT#wsdl.interface(emp_personal)"/>
     </sca:service>
-  </sca:component>
-  <sca:component xmi:id="_B1wPAFjXEe2P_MfywCk58Q" name="ComponentRenderTest" compositeext:version="1.0.0.qualifier">
-    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_B1wPAVjXEe2P_MfywCk58Q" processName="SubProcesses.RenderTest"/>
   </sca:component>
 </sca:composite>
